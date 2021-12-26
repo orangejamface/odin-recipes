@@ -1,41 +1,35 @@
 
 h1 {
     text-align:center;
-    font-family: 'Playfair Display', serif;
-    font-size: 5rem;
-    font-weight: bold;
+    font-family: monospace;
+    font-size: 100px;
+    color: rgb(61, 60, 60);
+    background-color: rgba(255, 20, 145, 0.829);
  
 }
 
 body {
-    background: linear-gradient(180deg, #ffea2e, #9740b9);
+    background-color: rgb(171, 219, 221);
     height: 200vh;
 }
 
 .block {
     display:block;
     margin:auto;
-    border-radius: 25px;
-    width: min(70%, 400px);
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.479);
-}
-
-.block2 {
-    
-    margin:auto;
-    border-radius: 15px;
-    width: min(90%,800px);
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.479);
+    border-radius: 15PX;
+    width: min(70%, 700px);
+    box-shadow: 0px 0px 20px rgba(53, 117, 40, 0.479);
 }
 
 
 #contents {
-    margin-top: 2rem;
-    height: 300px;
-    border: 1px solid black;
+    margin:auto;
+    height: 250px;
+    border: 4px solid black;
     text-align: center;
-    border-radius: 25px;
-    background-color: rgb(255, 255, 255);
+    width: min(90%,800px);
+    border-radius: 15px;
+    background-color: rgba(168, 255, 251, 0.74);
 }
 
 .recipe {
@@ -44,6 +38,74 @@ body {
 }
 
 a {
+    font-size: 30px;
     color: black;
     text-decoration: none;
+}
+
+.head,
+h3   {
+    text-align:center;
+    font-family: monospace;
+    font-size: 50px;
+    color: rgb(61, 60, 60);
+    background-color: rgba(255, 20, 145, 0.829);
+ 
+}
+
+.blockbread {
+    display:block;
+    margin:auto;
+    transform: rotate(40deg);
+    border-radius: 15PX;
+    height: auto;
+    width: 500px;
+    box-shadow: 0px 0px 20px rgba(53, 117, 40, 0.479);
+}
+
+div {
+    text-align:center;
+    font-family: monospace;
+    font-size: 20px;
+
+}
+
+ul,
+ol,
+table   {
+    block
+    text-align:left;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+
+ul  {
+    list-style-type: disc;
+}
+
+.steps   {
+
+    background-color: rgba(250, 250, 250, 0.151);
+    margin:5%;
+    text-align: center;
+    color: rgb(61, 60, 60);
+    list-style-type:none;
+    font-family: monospace;
+    font-size: 40px;
+}
+
+.link   {
+    
+    font-size: 20px;
+    color: blue;
+    text-decoration: underline;
+}
+
+button  {
+    margin: 0 auto;
+    display: block;
+    font-size: 20px;
+    color: blue;
+    background-color: coral;
 }
