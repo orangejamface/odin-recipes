@@ -32,7 +32,8 @@ body {
     background-color: rgba(168, 255, 251, 0.74);
 }
 
-.recipe {
+.recipe,
+.testing {
     
     font-size: 3vw;
     font-family: monospace;
@@ -48,7 +49,8 @@ a {
 h3   {
     text-align:center;
     font-family: monospace;
-    font-size: 50px;
+    margin-left:2vw;
+    font-size: 4vw;
     color: rgb(61, 60, 60);
     background-color: rgba(255, 20, 145, 0.829);
  
@@ -57,10 +59,10 @@ h3   {
 .blockbread {
     display:block;
     margin:auto;
-    transform: rotate(40deg);
+    transform: rotate(90deg);
     border-radius: 15PX;
     height: auto;
-    width: 500px;
+    width: 35vw;
     box-shadow: 0px 0px 20px rgba(53, 117, 40, 0.479);
 }
 
@@ -71,18 +73,18 @@ div {
 
 }
 
+
+
+
 ul,
-ol,
-table   {
-    block
+ol {
+    margin-left: 0vw;
+    margin-right: 6vw;
+    text-align: left;
+    list-style-type: disc;
     text-align:left;
     font-family: monospace;
-    font-size: 20px;
-}
-
-
-ul  {
-    list-style-type: disc;
+    font-size: 3vw;
 }
 
 .steps   {
@@ -93,12 +95,12 @@ ul  {
     color: rgb(61, 60, 60);
     list-style-type:none;
     font-family: monospace;
-    font-size: 40px;
+    font-size: 4pvw;
 }
 
 .link   {
     
-    font-size: 20px;
+    font-size: 3vw;
     color: blue;
     text-decoration: underline;
 }
