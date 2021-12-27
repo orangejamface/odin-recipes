@@ -109,8 +109,7 @@ ul  {
     font-family: monospace;
     font-size: 4pvw;
 }
-.link   {
-    
+.link   { 
     font-size: 2vw;
     color: blue;
     text-decoration: underline;
@@ -120,4 +119,9 @@ button  {
     margin-left: 45vw;
     border-radius: 2vw;
     background-color: coral;
+}
+
+.button {
+    font-size: 2vw;
+    color: blue;
 }
