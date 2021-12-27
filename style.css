@@ -125,3 +125,10 @@ button  {
     font-size: 2vw;
     color: blue;
 }
+
+table, th, td {
+    border: 1px solid black;
+    border-style:dashed;
+    margin-left: auto;
+    margin-right: auto;
+  }
