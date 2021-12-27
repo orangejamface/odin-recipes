@@ -24,17 +24,18 @@ body {
 
 #contents {
     margin:auto;
-    height: 40vw;
+    height: 20vh;
     border: 4px solid black;
     text-align: center;
-    width: min(100%,800px);
+    width: min(70%,800px);
     border-radius: 15px;
     background-color: rgba(168, 255, 251, 0.74);
 }
 
 .recipe {
-    padding: 10px;
-    font-size: 4vw;
+    
+    font-size: 3vw;
+    font-family: monospace;
 }
 
 a {
@@ -66,7 +67,7 @@ h3   {
 div {
     text-align:center;
     font-family: monospace;
-    
+  
 
 }
 
