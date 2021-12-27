@@ -2,26 +2,22 @@
 h1 {
     text-align:center;
     font-family: monospace;
-    font-size: 10vw;
+    font-size: 6vw;
     color: rgb(61, 60, 60);
     background-color: rgba(255, 20, 145, 0.829);
  
 }
-
 body {
     background-color: rgb(171, 219, 221);
     height: 200vh;
 }
-
 .block {
     display:block;
     margin:auto;
     border-radius: 15PX;
-    width: min(70%, 700px);
+    width: min(50%, 700px);
     box-shadow: 0px 0px 20px rgba(53, 117, 40, 0.479);
 }
-
-
 #contents {
     margin:auto;
     height: 20vh;
@@ -34,8 +30,10 @@ body {
 
 .recipe,
 .testing {
-    
-    font-size: 3vw;
+    text-align: center; 
+    margin-left: 3vw;
+    margin-right: 3vw;
+    font-size: 2vw;
     font-family: monospace;
 }
 
@@ -65,28 +63,42 @@ h3   {
     width: 35vw;
     box-shadow: 0px 0px 20px rgba(53, 117, 40, 0.479);
 }
-
+.focaccia {
+    display:block;
+    margin:auto;
+    border-radius: 15PX;
+    height: auto;
+    width: 35vw;
+    box-shadow: 0px 0px 20px rgba(53, 117, 40, 0.479);
+}
 div {
     text-align:center;
     font-family: monospace;
   
 
 }
-
-
-
-
 ul,
 ol {
     margin-left: 0vw;
     margin-right: 6vw;
     text-align: left;
-    list-style-type: disc;
     text-align:left;
     font-family: monospace;
-    font-size: 3vw;
+    font-size: 2vw;
 }
 
+ul  {
+    list-style-type: disc;
+}
+
+.margin  {
+    margin-left: 7vw;
+    margin-right: 7vw;
+    text-align: left;
+    color: rgb(61, 60, 60);
+    font-family: monospace;
+    font-size: 2vw;
+}
 .steps   {
 
     background-color: rgba(250, 250, 250, 0.151);
@@ -97,18 +109,15 @@ ol {
     font-family: monospace;
     font-size: 4pvw;
 }
-
 .link   {
     
-    font-size: 3vw;
+    font-size: 2vw;
     color: blue;
     text-decoration: underline;
+    
 }
-
 button  {
-    margin: 0 auto;
-    display: block;
-    font-size: 20px;
-    color: blue;
+    margin-left: 45vw;
+    border-radius: 2vw;
     background-color: coral;
 }
